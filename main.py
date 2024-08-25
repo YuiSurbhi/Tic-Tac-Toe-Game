@@ -1,4 +1,4 @@
-import random     # Import random for computer bot's move
+import random     # Import random for the computer bot's move
 
 # Initialize the game board with "-" indicating empty spots 
 board = ["-","-","-",
@@ -9,8 +9,7 @@ currentPlayer = "X"    # currentPlayer; start with "X"
 winner = None        # To keep track of the winner 
 gameRunning = True     # Game status flag 
 
-# Printing the game board
-
+# Printing the current state of the game board
 def printBoard(board):
     print(board[0] + " | " + board[1] + " | " + board[2])
     print("----------")
